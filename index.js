@@ -2,5 +2,5 @@
    return fn();
  }
  function setThisWithCall(fn, thisValue, arg){
-   return callBack.call(name)
+   return callBack.call(thisValue, arg)
  }
