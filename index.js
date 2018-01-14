@@ -7,4 +7,6 @@
  function setThisWithApply(fn, thisValue, arg){
    return fn.apply(thisValue, arg);
  }
- function returnNewFunctionOf(fn)
+ function returnNewFunctionOf(fn, thisValue){
+   return fn.bind(thisValue)
+ }
