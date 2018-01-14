@@ -2,5 +2,5 @@
    return fn();
  }
  function setThisWithCall(fn, name, age){
-   return fn.call(name)
+   return fn(18).call(name)
  }
