@@ -1,6 +1,6 @@
  function justInvoke(fn){
    return fn();
  }
- function setThisWithCall(fn, name, arg){
+ function setThisWithCall(fn, thisValue, arg){
    return callBack.call(name)
  }
